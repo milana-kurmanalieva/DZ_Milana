@@ -23,12 +23,9 @@ switch (chooseMonth){
         break
 }
 
-
 var valueOne = Number(prompt('Введите первое значение'))
 var valueTwo = Number(prompt('Введите второе значение'))
 var action = prompt('Выберите действие')
-
-
 
 if (action === '+') {
     alert(valueOne + valueTwo)
