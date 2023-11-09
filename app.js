@@ -1,4 +1,4 @@
-let chooseMonth = prompt('Введите месяц').toLowerCase()
+var chooseMonth = prompt('Введите месяц').toLowerCase()
 
 switch (chooseMonth){
     case 'декабрь':
@@ -24,9 +24,9 @@ switch (chooseMonth){
 }
 
 
-let valueOne = Number(prompt('Введите первое значение'))
-let valueTwo = Number(prompt('Введите второе значение'))
-let action = prompt('Выберите действие')
+var valueOne = Number(prompt('Введите первое значение'))
+var valueTwo = Number(prompt('Введите второе значение'))
+var action = prompt('Выберите действие')
 
 
 
@@ -42,6 +42,7 @@ if (action === '+') {
     alert('Error')
 }
 
-let massiveNumberTwo = [[[[[[[[[[[2]]]]]]]]]]]
+var massiveNumberTwo = [[[[[[[[[[[2]]]]]]]]]]]
 
 console.log(massiveNumberTwo[0][0][0][0][0][0][0][0][0][0][0])
+
